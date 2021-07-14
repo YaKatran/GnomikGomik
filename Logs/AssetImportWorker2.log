@@ -345,3 +345,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1754.814098 seconds.
+  path: Assets/Gnome/Rope Segment.prefab
+  artifactKey: Guid(a033336a8984a544da72487f44936285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gnome/Rope Segment.prefab using Guid(a033336a8984a544da72487f44936285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19d2ebdb4445bd6b31a7338016bf2c7') in 0.039911 seconds 
