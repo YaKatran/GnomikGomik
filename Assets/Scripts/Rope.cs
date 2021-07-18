@@ -40,7 +40,7 @@ public class Rope : MonoBehaviour
 
     void CreateRopeSegment()
     {
-        GameObject segment = (GameObject)Instantiate(ropeSegmentPrefab, this.transform.position, Quaternion.identity);
+        var segment = Instantiate(ropeSegmentPrefab, this.transform.position, Quaternion.identity);
         segment.transform.SetParent(this.transform, true);
         Rigidbody2D segmentBody = segment.GetComponent<Rigidbody2D>();
         SpringJoint2D segmentJoint = segment.GetComponent<SpringJoint2D>();
@@ -66,7 +66,7 @@ public class Rope : MonoBehaviour
             nextSegmentJoint.connectedBody = segmentBody;
             segmentJoint.distance = 0.0f;
         }
-        segmentJoint.connectedBody = this.GetComponent<Rigidbody2D>();
+        segmentJoint.connectedBody = GetComponent<Rigidbody2D>();
     }
 
     void RemoveRopeSegment()

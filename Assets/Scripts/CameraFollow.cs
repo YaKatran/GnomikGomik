@@ -28,12 +28,8 @@ public class CameraFollow : MonoBehaviour
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
-        Vector3 topPoint =
-        new Vector3(this.transform.position.x,
-        topLimit, this.transform.position.z);
-        Vector3 bottomPoint =
-        new Vector3(this.transform.position.x,
-        bottomLimit, this.transform.position.z);
+        Vector3 topPoint = new Vector3(this.transform.position.x, topLimit, this.transform.position.z);
+        Vector3 bottomPoint = new Vector3(this.transform.position.x, bottomLimit, this.transform.position.z);
         Gizmos.DrawLine(topPoint, bottomPoint);
     }
 }

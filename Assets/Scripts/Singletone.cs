@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class Singleton<T> : MonoBehaviour
+public class Singleton<T> : MonoBehaviour 
 where T : MonoBehaviour
 {
     private static T _instance;
@@ -17,8 +17,7 @@ where T : MonoBehaviour
 
                 if (_instance == null)
                 {
-                    Debug.LogError("Can't find " +
-                    typeof(T) + "!");
+                    Debug.LogError("Can't find " + typeof(T) + "!");
                 }
             }
 
