@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 7916ef65b94a95146b80d545fb17bfd0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ropeBody: {instanceID: 0}
+  - cameraFollowTarget: {instanceID: 0}
+  - armHoldingEmpty: {fileID: 21300000, guid: a1ee775673d6b446a9c7df3516921a19, type: 3}
+  - armHoldingTreasure: {fileID: 21300000, guid: de67cc81a8fed4de2a276e5c9815ed83, type: 3}
+  - holdingArm: {instanceID: 0}
+  - deathPrefab: {instanceID: 0}
+  - flameDeathPrefab: {instanceID: 0}
+  - ghostPrefab: {instanceID: 0}
+  - bloodFountainPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

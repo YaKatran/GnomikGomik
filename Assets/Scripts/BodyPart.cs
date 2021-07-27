@@ -1,8 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class BodyParts : MonoBehaviour
+[RequireComponent(typeof(SpriteRenderer))]
+public class BodyPart : MonoBehaviour
 {
     public Sprite detachedSprite;
     public Sprite burnedSprite;
@@ -60,5 +59,4 @@ public class BodyParts : MonoBehaviour
             GetComponent<SpriteRenderer>().sprite = spriteToUse;
         }
     }
-
 }
