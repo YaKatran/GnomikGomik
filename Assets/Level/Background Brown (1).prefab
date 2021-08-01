@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5789220272719264160}
   - component: {fileID: 7460453228618684061}
-  - component: {fileID: 5527862160829767054}
+  - component: {fileID: 3683823325731260879}
   m_Layer: 0
   m_Name: BrownSide
   m_TagString: Untagged
@@ -84,8 +84,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &5527862160829767054
-PolygonCollider2D:
+--- !u!61 &3683823325731260879
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -107,24 +107,9 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.825, y: -0.69}
-      - {x: 0.72499996, y: -0.62}
-      - {x: 0.645, y: -0.57}
-      - {x: 0.775, y: -0.39}
-      - {x: 0.755, y: -0.25}
-      - {x: 0.695, y: -0.19}
-      - {x: 0.85499996, y: 0.06}
-      - {x: 0.85499996, y: 0.41}
-      - {x: 0.78499997, y: 0.71}
-      - {x: 0.805, y: 1.2099999}
-      - {x: 0.78499997, y: 1.25}
-      - {x: -0.85499996, y: 1.25}
-      - {x: -0.85499996, y: -1.25}
-      - {x: 0.78499997, y: -1.25}
-      - {x: 0.85499996, y: -1.0699999}
-      - {x: 0.85499996, y: -0.76}
+  serializedVersion: 2
+  m_Size: {x: 1.71, y: 2.5}
+  m_EdgeRadius: 0
 --- !u!1 &2489548185645905176
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,7 +408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6456610777439934126}
   - component: {fileID: 8845766649863915826}
-  - component: {fileID: 5863694390350961140}
+  - component: {fileID: 989424757192136730}
   m_Layer: 0
   m_Name: BrownSide (2)
   m_TagString: Untagged
@@ -497,8 +482,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &5863694390350961140
-PolygonCollider2D:
+--- !u!61 &989424757192136730
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -520,24 +505,9 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.825, y: -0.69}
-      - {x: 0.72499996, y: -0.62}
-      - {x: 0.645, y: -0.57}
-      - {x: 0.775, y: -0.39}
-      - {x: 0.755, y: -0.25}
-      - {x: 0.695, y: -0.19}
-      - {x: 0.85499996, y: 0.06}
-      - {x: 0.85499996, y: 0.41}
-      - {x: 0.78499997, y: 0.71}
-      - {x: 0.805, y: 1.2099999}
-      - {x: 0.78499997, y: 1.25}
-      - {x: -0.85499996, y: 1.25}
-      - {x: -0.85499996, y: -1.25}
-      - {x: 0.78499997, y: -1.25}
-      - {x: 0.85499996, y: -1.0699999}
-      - {x: 0.85499996, y: -0.76}
+  serializedVersion: 2
+  m_Size: {x: 1.71, y: 2.5}
+  m_EdgeRadius: 0
 --- !u!1 &4651775248649075641
 GameObject:
   m_ObjectHideFlags: 0
@@ -631,7 +601,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2162734192898498126}
   - component: {fileID: 5487023434240790712}
-  - component: {fileID: 7540220865839989961}
+  - component: {fileID: 8459795588778421206}
   m_Layer: 0
   m_Name: BrownSide (3)
   m_TagString: Untagged
@@ -705,8 +675,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &7540220865839989961
-PolygonCollider2D:
+--- !u!61 &8459795588778421206
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -728,24 +698,9 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.825, y: -0.69}
-      - {x: 0.72499996, y: -0.62}
-      - {x: 0.645, y: -0.57}
-      - {x: 0.775, y: -0.39}
-      - {x: 0.755, y: -0.25}
-      - {x: 0.695, y: -0.19}
-      - {x: 0.85499996, y: 0.06}
-      - {x: 0.85499996, y: 0.41}
-      - {x: 0.78499997, y: 0.71}
-      - {x: 0.805, y: 1.2099999}
-      - {x: 0.78499997, y: 1.25}
-      - {x: -0.85499996, y: 1.25}
-      - {x: -0.85499996, y: -1.25}
-      - {x: 0.78499997, y: -1.25}
-      - {x: 0.85499996, y: -1.0699999}
-      - {x: 0.85499996, y: -0.76}
+  serializedVersion: 2
+  m_Size: {x: 1.71, y: 2.5}
+  m_EdgeRadius: 0
 --- !u!1 &6483574280846643699
 GameObject:
   m_ObjectHideFlags: 0
@@ -839,7 +794,7 @@ GameObject:
   m_Component:
   - component: {fileID: 483424874015413260}
   - component: {fileID: 6060429195708770596}
-  - component: {fileID: 2560984625168500422}
+  - component: {fileID: 4982135240264080626}
   m_Layer: 0
   m_Name: BrownSide (1)
   m_TagString: Untagged
@@ -913,8 +868,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &2560984625168500422
-PolygonCollider2D:
+--- !u!61 &4982135240264080626
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -936,21 +891,6 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.825, y: -0.69}
-      - {x: 0.72499996, y: -0.62}
-      - {x: 0.645, y: -0.57}
-      - {x: 0.775, y: -0.39}
-      - {x: 0.755, y: -0.25}
-      - {x: 0.695, y: -0.19}
-      - {x: 0.85499996, y: 0.06}
-      - {x: 0.85499996, y: 0.41}
-      - {x: 0.78499997, y: 0.71}
-      - {x: 0.805, y: 1.2099999}
-      - {x: 0.78499997, y: 1.25}
-      - {x: -0.85499996, y: 1.25}
-      - {x: -0.85499996, y: -1.25}
-      - {x: 0.78499997, y: -1.25}
-      - {x: 0.85499996, y: -1.0699999}
-      - {x: 0.85499996, y: -0.76}
+  serializedVersion: 2
+  m_Size: {x: 1.71, y: 2.5}
+  m_EdgeRadius: 0

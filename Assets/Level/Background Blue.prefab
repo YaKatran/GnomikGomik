@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4466294364959088600}
   - component: {fileID: 539507770607429194}
-  - component: {fileID: 6563997591471438663}
+  - component: {fileID: 841894765424050532}
   m_Layer: 0
   m_Name: BlueSide (3)
   m_TagString: Untagged
@@ -84,8 +84,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &6563997591471438663
-PolygonCollider2D:
+--- !u!61 &841894765424050532
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -107,21 +107,9 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.775, y: -0.19999999}
-      - {x: 0.84499997, y: -0.17}
-      - {x: 0.84499997, y: 0.22999999}
-      - {x: 0.715, y: 0.42}
-      - {x: 0.805, y: 0.45999998}
-      - {x: 0.815, y: 0.81}
-      - {x: 0.805, y: 1.25}
-      - {x: -0.84499997, y: 1.25}
-      - {x: -0.84499997, y: -1.25}
-      - {x: 0.805, y: -1.25}
-      - {x: 0.815, y: -1.0799999}
-      - {x: 0.685, y: -1}
-      - {x: 0.805, y: -0.76}
+  serializedVersion: 2
+  m_Size: {x: 1.69, y: 2.5}
+  m_EdgeRadius: 0
 --- !u!1 &1526215060835885446
 GameObject:
   m_ObjectHideFlags: 0
@@ -171,7 +159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5587378357084765492}
   - component: {fileID: 8847670609252221701}
-  - component: {fileID: 8563327308769421366}
+  - component: {fileID: 4290326119353291276}
   m_Layer: 0
   m_Name: BlueSide
   m_TagString: Untagged
@@ -245,8 +233,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &8563327308769421366
-PolygonCollider2D:
+--- !u!61 &4290326119353291276
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -268,21 +256,9 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.775, y: -0.19999999}
-      - {x: 0.84499997, y: -0.17}
-      - {x: 0.84499997, y: 0.22999999}
-      - {x: 0.715, y: 0.42}
-      - {x: 0.805, y: 0.45999998}
-      - {x: 0.815, y: 0.81}
-      - {x: 0.805, y: 1.25}
-      - {x: -0.84499997, y: 1.25}
-      - {x: -0.84499997, y: -1.25}
-      - {x: 0.805, y: -1.25}
-      - {x: 0.815, y: -1.0799999}
-      - {x: 0.685, y: -1}
-      - {x: 0.805, y: -0.76}
+  serializedVersion: 2
+  m_Size: {x: 1.69, y: 2.5}
+  m_EdgeRadius: 0
 --- !u!1 &2972076269367859382
 GameObject:
   m_ObjectHideFlags: 0
@@ -376,7 +352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5975959800480362025}
   - component: {fileID: 661369539405676806}
-  - component: {fileID: 2746083693642255292}
+  - component: {fileID: 1029971512791359509}
   m_Layer: 0
   m_Name: BlueSide (2)
   m_TagString: Untagged
@@ -450,8 +426,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &2746083693642255292
-PolygonCollider2D:
+--- !u!61 &1029971512791359509
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -473,21 +449,9 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.775, y: -0.19999999}
-      - {x: 0.84499997, y: -0.17}
-      - {x: 0.84499997, y: 0.22999999}
-      - {x: 0.715, y: 0.42}
-      - {x: 0.805, y: 0.45999998}
-      - {x: 0.815, y: 0.81}
-      - {x: 0.805, y: 1.25}
-      - {x: -0.84499997, y: 1.25}
-      - {x: -0.84499997, y: -1.25}
-      - {x: 0.805, y: -1.25}
-      - {x: 0.815, y: -1.0799999}
-      - {x: 0.685, y: -1}
-      - {x: 0.805, y: -0.76}
+  serializedVersion: 2
+  m_Size: {x: 1.69, y: 2.5}
+  m_EdgeRadius: 0
 --- !u!1 &5042002713914351061
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,7 +711,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1044008079541563513}
   - component: {fileID: 5392566440195631014}
-  - component: {fileID: 9009931955212596440}
+  - component: {fileID: 2998493479850374448}
   m_Layer: 0
   m_Name: BlueSide (1)
   m_TagString: Untagged
@@ -821,8 +785,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &9009931955212596440
-PolygonCollider2D:
+--- !u!61 &2998493479850374448
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -844,21 +808,9 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.775, y: -0.19999999}
-      - {x: 0.84499997, y: -0.17}
-      - {x: 0.84499997, y: 0.22999999}
-      - {x: 0.715, y: 0.42}
-      - {x: 0.805, y: 0.45999998}
-      - {x: 0.815, y: 0.81}
-      - {x: 0.805, y: 1.25}
-      - {x: -0.84499997, y: 1.25}
-      - {x: -0.84499997, y: -1.25}
-      - {x: 0.805, y: -1.25}
-      - {x: 0.815, y: -1.0799999}
-      - {x: 0.685, y: -1}
-      - {x: 0.805, y: -0.76}
+  serializedVersion: 2
+  m_Size: {x: 1.69, y: 2.5}
+  m_EdgeRadius: 0
 --- !u!1 &9034698196272027999
 GameObject:
   m_ObjectHideFlags: 0

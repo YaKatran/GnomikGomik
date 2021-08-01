@@ -1180,7 +1180,7 @@ Transform:
   m_GameObject: {fileID: 4246656339797120273}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.3533057, y: -8.878101, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children:
   - {fileID: 4246656338369393936}
   - {fileID: 4246656338987313942}
@@ -1209,12 +1209,12 @@ MonoBehaviour:
   armHoldingEmpty: {fileID: 21300000, guid: a1ee775673d6b446a9c7df3516921a19, type: 3}
   armHoldingTreasure: {fileID: 21300000, guid: de67cc81a8fed4de2a276e5c9815ed83, type: 3}
   holdingArm: {fileID: 4246656338369393948}
-  deathPrefab: {fileID: 0}
+  deathPrefab: {fileID: 793920982846403240, guid: 2bb44e16beb77b541bfed00ee0a7e840, type: 3}
   flameDeathPrefab: {fileID: 0}
   ghostPrefab: {fileID: 0}
   delayBeforeRemoving: 3
   delayBeforeReleasingGhost: 0.25
-  bloodFountainPrefab: {fileID: 0}
+  bloodFountainPrefab: {fileID: 2840469140014624640, guid: fbf5ee589b8cf2e4eb451401117fcd98, type: 3}
 --- !u!1 &4246656339846466788
 GameObject:
   m_ObjectHideFlags: 0
